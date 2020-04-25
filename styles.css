@@ -1,0 +1,83 @@
+body, html{
+	font-family: 'Lato', sans-serif;
+	width: 100%;
+	height: 100%;
+	
+}
+
+html::after
+{
+	content: "";
+  	background: url(background.jpg) no-repeat center center fixed; 
+	background-size: cover;
+	opacity: 0.6;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;   
+}
+
+ul{
+	list-style-type: none;
+	overflow: hidden;
+}
+
+.fa-icon {
+    color: white;
+    background-color: #3B5998;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    line-height: 29px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.fa-icon.fa-icon-2x {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px
+}
+
+/* Add a hover effect if you want */
+.fa-icon:hover {
+    color : black;
+    opacity: 0.7;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover{
+	transform: scale(1.1);
+}
+
+.images {
+	margin: 10px;
+}
+
+.fav-preview{
+	width: 200px;
+	height: 100px;
+}
+
+/*.horizontal_list {
+	text-align: center;
+}
+
+.horizontal_list>li{
+	display: inline-block;
+}*/
+
+.embed-responsive .card-img-top {
+    object-fit: cover;
+}
+
+.card {
+    background-color: rgba(255,255,255, 0.3);
+}
